@@ -10,6 +10,8 @@
   box-sizing: border-box;
 }
 
+
+/* Display formatting */
 .flex {
   display: flex;
 }
@@ -23,6 +25,64 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+
+/* Spacing */
+
+/* padding formatting */
+.ph {
+  padding: 0.5rem;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.pt1 {
+  padding-top: 1rem;
+}
+
+.pt2 {
+  padding-top: 2rem;
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+}
+
+.pb2 {
+  padding-bottom: 2rem;
+}
+
+.pl2 {
+  padding-left: 2rem;
+}
+
+.pr2 {
+  padding-right: 2rem;
+}
+
+
+/* text size formatting */
+.txt-sz-small {
+  font-size: 0.75em;
+}
+
+.txt-sz1 {
+  font-size: 1em;
+}
+
+.txt-sz1h {
+  font-size: 1.5em;
+}
+
+.txt-sz2 {
+  font-size: 2em;
+}
+
+.txt-bold {
+  font-weight: 550;
 }
 
 /* Background Colors */
@@ -41,6 +101,8 @@
 .bg-lavender {
   background-color: var(--lavender);
 }
+
+
 
 /* Text Colors */
 .txt-black {
@@ -63,5 +125,26 @@
   text-decoration: none;
   list-style-type: none;
   background-color: var(--purple);
-  color: white;
+  color: var(--lavender);
+  align-items: stretch;
+}
+
+.nav a {
+  color: inherit;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: .50rem;
+}
+
+.nav li.active {
+  background-color: var(--black);
+}
+
+.nav li:hover {
+  background-color: var(--violet);
+}
+
+h1 {
+  color: var(--lavender);
 }
