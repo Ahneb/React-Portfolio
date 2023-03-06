@@ -1,0 +1,67 @@
+* {
+  --black: rgb(0, 0, 0);
+  --purple: rgb(82, 5, 123);
+  --violet: rgb(137, 44, 220);
+  --lavender: rgb(188, 111, 241);
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Background Colors */
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-violet {
+  background-color: var(--violet);
+}
+
+.bg-lavender {
+  background-color: var(--lavender);
+}
+
+/* Text Colors */
+.txt-black {
+  color: var(--black);
+}
+
+.txt-purple {
+  color: var(--purple);
+}
+
+.txt-violet {
+  color: var(--violet);
+}
+
+.txt-lavender {
+  color: var(--lavender);
+}
+
+.nav {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: var(--purple);
+  color: white;
+}
