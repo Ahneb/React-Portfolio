@@ -9,7 +9,6 @@ export default function Navbar() {
         Site Name
       </Link>
       <ul className='flex'>
-        <NewLink to='/'>Home</NewLink>
         <NewLink to='/about'>About</NewLink>
         <NewLink to='/projects'>Projects</NewLink>
         <NewLink to='/contact'>Contact</NewLink>

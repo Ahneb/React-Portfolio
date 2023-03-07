@@ -148,3 +148,24 @@
 h1 {
   color: var(--lavender);
 }
+
+section {
+  color: var(--lavender);
+}
+
+.Container {
+  padding: 4rem;
+}
+
+.content_title {
+  font-size: 4rem;
+}
+
+.content_info {
+  font-size: 1.5rem;
+}
+
+.input_titles {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
