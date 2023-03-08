@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ahneb/React-Portfolio/static/css/main.81796771.css",
+    "main.js": "/Ahneb/React-Portfolio/static/js/main.39a91936.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Ahneb/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/Ahneb/React-Portfolio/index.html",
+    "main.81796771.css.map": "/Ahneb/React-Portfolio/static/css/main.81796771.css.map",
+    "main.39a91936.js.map": "/Ahneb/React-Portfolio/static/js/main.39a91936.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Ahneb/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81796771.css",
+    "static/js/main.39a91936.js"
+  ]
+}
